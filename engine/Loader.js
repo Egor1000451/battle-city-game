@@ -11,7 +11,7 @@
             }
             // Готовые ресурсы
             this.resources = {
-                jsons: [],
+                images: [],
                 jsons: []
             }
         }
