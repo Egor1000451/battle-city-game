@@ -26,6 +26,16 @@
             this.loadOrder.jsons.push({ name, address });
         }
 
+        // Получить изображение по имени
+        getImage(name) {
+            return this.resources.images[name];
+        }
+
+        // Получить json файл по имени
+        getJson(name) {
+            return this.resources.jsons[name];
+        }
+
         // Загрузка из очереди в ресурсы
         load(callback) {
             const promises = [];
